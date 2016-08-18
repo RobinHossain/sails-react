@@ -1,0 +1,66 @@
+{
+  "data": {
+    "comment": [],
+    "todo": [
+      {
+        "uid": "a6f68905-9584-4ed8-a3c4-59accf9dd167",
+        "title": "asdfasdf",
+        "completed": false,
+        "createdAt": "2016-08-18T09:23:18.883Z",
+        "updatedAt": "2016-08-18T09:23:18.883Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "comment": {
+      "author": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "todo": {
+      "completed": {
+        "type": "boolean"
+      },
+      "title": {
+        "type": "string"
+      },
+      "uid": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "comment": {},
+    "todo": {
+      "id": 1
+    }
+  }
+}
