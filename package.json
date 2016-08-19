@@ -1,7 +1,7 @@
 {
-  "name": "sails-react-example",
+  "name": "sails-react",
   "version": "0.3.0",
-  "description": "Sails and React integration example. Also uses Bower for web package management and RequireJS for AMD.",
+  "description": "Sails and React integration.",
   "keywords": [],
   "dependencies": {
     "babel-preset-es2015": "^6.13.2",
@@ -34,8 +34,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mixxen/sails-react-example"
+    "url": "https://github.com/RobinHossain/sails-react.git"
   },
-  "author": "Alex Cabello",
+  "author": "Robin Hossain",
   "license": "MIT"
 }
